@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body {
+            background: #000;
+        }
+       
+      
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #fff;
+            position: relative;
+            left: 50%;
+        }
+        .material-icons
+        
+        {
+             position: relative;
+                left: 50%;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Page Content goes here -->
+        <div class="row">
+             <section id="center">
+                    <form class="col  s12">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+
+                        <input id="first_name" type="text" class="validate">
+                        <label class="all" for="first_name">First Name</label>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">lock</i>
+
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">email</i>
+
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">Message</label>
+                    </div>
+                </div>
+                <button  class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+
+            </form>
+             </section>
+        </div>
+    </div>
+    <script src="materialize.min.js"></script>
+</body>
+
+</html>
